@@ -1,0 +1,352 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: antiquewhite;
+  width:100%;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+.logo {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo img{
+  width: 35%;
+  border: 5px double rgb(12 209 240);
+  border-radius: 50%;
+}
+.navbar{
+  display: flex;
+  position: sticky;
+  top: 0%;
+  
+}
+.nav-list{
+  width: 100%;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.nav-list li{
+  padding: 10px 15px;
+
+}
+.nav-list li a{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 500;
+  text-decoration: none;
+  color:rgb(255, 255, 255)
+}
+.nav-list li a:hover{
+  color: rgb(230, 130, 130);
+  font-style: oblique;
+  text-decoration: underline;
+  transition: all 0.3s ease;
+}
+
+.right-nav{
+  width: 50%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+#search{
+  outline: none;
+  border: none;
+  font-size: 18px;
+  border-radius: 30px;
+  padding: 3px;
+  padding-left: 23px;
+  margin-right:14px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(230,130,130);
+}
+
+.btn-s{
+  outline: none;
+  border: none;
+  padding: 6px 20px;
+  border-radius: 5px;
+  font-weight: 500;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: white;
+  cursor: pointer;
+}
+.btn-s:hover{
+  background-color: rgb(230,130,130);
+  color: white;
+  transition: all 0.2s ease;
+}
+.btns{
+  outline: none;
+  border: 2px solid rgb(166, 61, 61);
+  cursor: pointer;
+  padding: 6px 20px;
+  border-radius: 5px;
+  margin: 10px;
+  margin-right: 12px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: white;
+}
+.btns:hover{
+  background-color: rgb(230, 130, 130);
+  color: white;
+  transition: all 0.2s ease;
+}
+.background{
+  background: rgba(0, 0, 0, 0.8) url(../IMG/sunset-1373171_1920.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode:light;
+}
+.box-main{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  max-width:60%;
+  margin: auto;
+  padding-top: 22px;
+  height: 90%;
+}
+.firstsection{  
+  height: 92vh;
+}
+.first{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.second{
+  width:40%;
+  border-radius: 50%;
+  border: 10px double rgb(12 209 240);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.second img{
+  width:100%;
+  border-radius: 50%;
+}
+.europe,.america,.asia{
+  margin: 10px 10px;
+}
+
+.text-big{
+  color:rgb(237, 70, 70);
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 32px;
+  margin: 10px;
+ 
+}
+.text-small{
+  margin: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 22px;
+  color:black;
+}
+.cards-right,.cards-left{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 80%;
+  margin: 20px auto;
+}
+.cards-left{
+  flex-direction: row-reverse;
+}
+.city{
+  padding:0px 65px;
+  margin-bottom: 25px;
+}
+.city > li{
+  text-align: justify;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.europe,.america,.asia{
+  margin-bottom: 20px;
+}
+.thumbnail > img{
+  height: 320px;
+  width: 265px;
+  border: 4px dashed rgb(237 70 70);
+}
+.contact{
+  margin: auto;
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(240, 234, 227);
+}
+.con-title{
+  color:rgb(237, 70, 70);
+  text-decoration: underline;
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px 0;
+  font-size: 32px;
+  margin:auto;
+}
+
+.con-data{
+  outline: none;
+  color:rgb(237, 70, 70);
+  border: 2px solid rgb(166, 61, 61);
+  width: 45%;
+  margin: 4px;
+  font-size: 18px;
+  border-radius: 30px;
+  padding: 3px;
+  padding-left: 23px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: rgb(255, 255, 255);
+}
+::placeholder{
+  color:rgb(237, 70, 70);
+  opacity: 0.6;
+}
+.con-btn{
+  margin-bottom: 20px;
+  width: 40%;
+  padding-left: 0px;
+}
+
+.con-btn:hover{
+  background-color: rgb(230,130,130);
+  color: white;
+  transition: all 0.2s ease;
+}
+.foot{
+  width: 100%;
+  margin-top: 5px;
+  color: white;
+  padding: 13px 0;
+  background-color: rgb(146, 117, 117);
+}
+
+.burger{
+  display: none;
+  position: absolute;
+  top: 15px;
+  right:15px;
+}
+.admin{
+  display: none;
+  color:rgb(230, 130, 130);
+  text-align: center;
+  margin-top: 3px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 32px;
+}
+
+.lin{
+  width: 30px;
+  background-color:rgb(230 130 130);
+  height: 3px;
+  margin: 4px 6px;
+}
+@media only screen and (max-width: 1000px){
+  .nav-list{
+    flex-direction: column;
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+  .nav-list > li > a{
+    font-size: 20px;
+  }
+  .navbar{
+    position: sticky;
+    top:0%;
+    flex-direction: column;
+    transition: all 0.4s ease-out;
+  }
+  .box-main{
+    flex-direction: column-reverse;
+    max-width: 40%;
+    align-items: center;
+
+  }
+  .right-nav{
+    align-items: center;
+    margin: auto;
+    margin-bottom: 14px;
+  }
+  #search{
+    width: 100%;
+  }
+
+  .text-big,.text-small{
+    text-align: center;
+    margin: 10px;
+  }
+  .btn-s,.buttons{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+  }
+  .burger,.admin{
+    display:block;
+  }
+  .h-nav-resp{
+    height:60px;
+  }
+  .visi-resp{
+    display: none;
+  }
+  .cards-right,.cards-left{
+    margin-top: 2rem;
+    flex-direction: column-reverse;
+  }
+  .thumbnail > img{
+    height: 50vh;
+    width: 80vw;
+    margin-bottom: 20px;
+  }
+  .city{
+    width:90%;
+    margin-bottom: 20px;
+  }
+  .europe,.america,.asia{
+    margin-bottom: 20px;
+  }
+}
+/* Small Screens */
+@media only screen and (max-width: 500px){
+    
+    .admin,.text-big,.con-title{
+      font-size: 28px;
+    }
+    .text-small{
+      font-size: 18px;
+    }
+    .btns{
+      padding: 6px 16px;
+    }
+    .city {
+      padding: 0px 5px;
+      margin-bottom: 20px;
+    }
+    .europe,.america,.asia{
+      margin-bottom: 20px;
+    }
+    .con-data{
+      width: 65%;
+      font-size: 14px;
+    }
+    .foot{
+      font-size: 12px;
+    }
+}
